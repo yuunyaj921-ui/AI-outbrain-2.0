@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+.venv.broken-*/
+venv/
+env/
+
+# Runtime data (transient, regenerable)
+runtime/
+
+# Obsidian local workspace cache (not knowledge content)
+Obsidian/AI外脑知识库/.obsidian/workspace.json
+Obsidian/AI外脑知识库/.obsidian/workspace-mobile.json
+Obsidian/AI外脑知识库/.obsidian/cache
+
+# Secrets & local config — never commit
+config.ini
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
