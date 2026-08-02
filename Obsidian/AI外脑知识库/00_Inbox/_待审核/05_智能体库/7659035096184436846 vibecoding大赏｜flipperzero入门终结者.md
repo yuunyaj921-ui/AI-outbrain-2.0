@@ -2,52 +2,52 @@
 tags:
   - 智能体
   - 待审核
-created: 2026-07-30
-source: https://www.iesdouyin.com/share/video/7659035096184436846/?region=CN&mid=7629557851141048320&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=dNb91kCkiBbut.dJ7LfFVj4LvqJAN_Qvn6KJSoSwpds-&share_version=170400&ts=1785254199&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D
-douyin_author: MAO
-douyin_aweme_id: 7659035096184436846
-douyin_create_time: 2026-07-05 21:27
-source_category: 知识
+created: 2026-08-02
+source: "https://www.iesdouyin.com/share/video/7659035096184436846/?region=CN&mid=7629557851141048320&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=dNb91kCkiBbut.dJ7LfFVj4LvqJAN_Qvn6KJSoSwpds-&share_version=170400&ts=1785254199&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D"
+douyin_author: "MAO"
+douyin_aweme_id: "7659035096184436846"
+douyin_create_time: "2026-07-05 21:27"
+source_category: "知识"
+review_id: "a300e5e7f7e5"
 review_status: pending
+curation_method: deterministic-extractive-v1
+quality_status: needs_human_review
 ---
 
 # vibecoding大赏｜flipperzero入门终结者
 
 ## 📌 一句话总结
-抖音视频「vibecoding大赏｜flipperzero入门终结者」的转写内容，来自 MAO，分类建议：智能体
+围绕“vibecoding大赏｜flipperzero入门终结者”梳理可复用方法，核心信息包括：将完美的帮助大家解决这个问题首先就是插上USB自动识别不用装取动。
 
 ## 🏷️ 类型
 智能体
 
 ## 🔑 关键知识点
-1. 
-2. 
-3. 
-4. 
-5. 
+1. 将完美的帮助大家解决这个问题首先就是插上USB自动识别不用装取动
+2. 电池、库建、SD卡设备状态移目了仰如果有任何的不会操作内置AIagent打字就行
+3. 比如怎么复制门S卡AI秒回还主动问你要不要手把手架如果你先手动倒入麻烦
+4. 标签产品一件打包十个资源包只是要点推荐配置1000多座文件一件自动协入设备
+5. 所有的帮助传输进度条列记例子流前程可视可以看到164个文件
 
 ## 🎯 适用场景
-- 
-- 
-- 
+- 设计 Agent 的角色与任务边界
+- 拆分多步骤自动化任务
+- 评估智能体协作和审计机制
 
 ## 🛠️ 可用工具 / 模型
-- 
-- 
-- 
+- 原视频未明确提及具体工具或模型
 
 ## 🔗 可迁移到我的项目
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] AI 外脑：沉淀为可搜索、可复用的知识卡片
+- [ ] AI Companion：作为能力设计、交互或记忆策略的参考
 
 ## 💬 我的理解
-> 待审核后补充
+> 这是基于原始转写自动抽取的审核草稿；批准前应核对事实、术语和 ASR 误差。
 
 ## 📤 可输出内容
-- 选题方向：
-- 讨论话题：
-- 商业切入点：
+- 选题方向：vibecoding大赏｜flipperzero入门终结者
+- 讨论话题：原视频方法是否可复用、适用边界是什么
+- 商业切入点：仅在人工确认真实需求和可交付价值后评估
 
 ## ➡️ 后续行动
 - [ ] 值得深入研究
@@ -57,11 +57,7 @@ review_status: pending
 - [ ] 暂时收藏观察
 
 ## 🏗️ 关联知识
-- [[相关术语]]
-- [[相关模型]]
-- [[相关工具]]
-- [[相关工作流]]
-- [[相关案例]]
+- [[待审核后补充相关术语或工具]]
 
 ---
 

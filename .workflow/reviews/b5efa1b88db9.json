@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:10.142552+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "b5efa1b88db9",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\b5efa1b88db9.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:10.142552+00:00",
+  "updated_at": "2026-08-02T08:21:10.142552+00:00",
+  "title": "做 AI 出海网站时，我发现一个很烧钱的调试坑",
+  "author": "和平本记",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7660050587160939786 做 AI 出海网站时，我发现一个很烧钱的调试坑.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\02_模型能力库\\7660050587160939786 做 AI 出海网站时，我发现一个很烧钱的调试坑.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "02_模型能力库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7660050587160939786",
+  "source_url": "https://www.iesdouyin.com/share/video/7660050587160939786/?region=CN&mid=7660050644417809162&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=RoUR5sIorZ74z3OK2pV3rny7xEGuNnQ5bTT6NKntFEM-&share_version=170400&ts=1785254197&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "二次元",
+  "priority_score": 47,
+  "migration_source": "legacy-classification-candidate"
+}

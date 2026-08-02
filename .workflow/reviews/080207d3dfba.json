@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:09.585684+00:00",
+      "revision": 0
+    },
+    {
+      "type": "draft_ready",
+      "status": "awaiting_approval",
+      "created_at": "2026-08-02T08:21:09.632611+00:00",
+      "suggested_category": "03_AI工具库",
+      "target_path": "03_AI工具库/7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
+      "index_path": "03_AI工具库/_工具库索引.md",
+      "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
+      "revision": 1
+    }
+  ],
+  "review_id": "080207d3dfba",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\080207d3dfba.json",
+  "status": "awaiting_approval",
+  "created_at": "2026-08-02T08:21:09.585684+00:00",
+  "updated_at": "2026-08-02T08:21:09.631522+00:00",
+  "title": "codex绝对实操！！小白制作网页最有效的方法√",
+  "author": "大白AI",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "wait_for_user_review",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "03_AI工具库",
+  "target_path": "03_AI工具库/7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
+  "index_path": "03_AI工具库/_工具库索引.md",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7660844602957532450",
+  "source_url": "https://www.iesdouyin.com/share/video/7660844602957532450/?region=CN&mid=7660844615675120425&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=7T.qUNguAGXhhDzKAPXg9GXLSRsWs2.bTfujm_zvUjU-&share_version=170400&ts=1785254179&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 52,
+  "migration_source": "legacy-classification-candidate",
+  "quality": {
+    "transcript_chars": 2412,
+    "knowledge_points": 5,
+    "scenarios": 3,
+    "tools": 1,
+    "complete": true,
+    "score": 92
+  }
+}

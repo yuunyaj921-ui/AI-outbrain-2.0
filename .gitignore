@@ -22,6 +22,7 @@ Obsidian/AI外脑知识库/.obsidian/cache
 
 # Secrets & local config — never commit
 config.ini
+Obsidian/AI外脑知识库/.obsidian/plugins/obsidian-local-rest-api/data.json
 
 # IDE
 .vscode/

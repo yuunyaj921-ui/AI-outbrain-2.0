@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:09.224646+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "144f3c875a64",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\144f3c875a64.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:09.224646+00:00",
+  "updated_at": "2026-08-02T08:21:09.224646+00:00",
+  "title": "全网最全 Codex 百套自动化工作流出炉，剪辑 / 桌面操控 / 建站全套模板，懒人狂喜！#codex #ai #干货分享 #职场 #打工人",
+  "author": "AI科技视野",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7658982519525674266 全网最全 Codex 百套自动化工作流出炉，剪辑 _ 桌面操控 _ 建站全套模板，懒人狂喜！#codex #ai #干货.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\04_工作流库\\7658982519525674266 全网最全 Codex 百套自动化工作流出炉，剪辑   桌面操控   建站全套模板，懒人狂喜！#codex #ai #干货分享 #职场 #打工人.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "04_工作流库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7658982519525674266",
+  "source_url": "https://www.iesdouyin.com/share/video/7658982519525674266/?region=CN&mid=7624718331770046514&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=Ea0Ye4KvGtMeL73Bau4JsnGyUrWLu6Y6E.yBBsSdvWg-&share_version=170400&ts=1785254170&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 57,
+  "migration_source": "legacy-classification-candidate"
+}

@@ -20,24 +20,21 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 import ssl
-import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-CANDIDATES_PATH = PROJECT_ROOT / "runtime" / "batch_transcription" / "classification_candidates.jsonl"
+CANDIDATES_PATH = (
+    PROJECT_ROOT / "runtime" / "batch_transcription" / "classification_candidates.jsonl"
+)
 DEFAULT_BASE = os.environ.get("OBSIDIAN_API_URL", "https://127.0.0.1:27124")
 
-API_KEY = os.environ.get(
-    "OBSIDIAN_API_KEY",
-    "7d5fae81891539d8d79eaf97d3891fc42bb5389204af980447eb49564ccb8e4b",
-)
+API_KEY = os.environ.get("OBSIDIAN_API_KEY", "").strip()
 
 # ── template ──────────────────────────────────────────────────────────────
 
@@ -124,6 +121,7 @@ BUCKET_TAG_MAP = {
 
 # ── API helpers ───────────────────────────────────────────────────────────
 
+
 def _ssl_context() -> ssl.SSLContext:
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
@@ -137,8 +135,15 @@ def encode_vault_path(path: str) -> str:
     return "/vault/" + "/".join(urllib.parse.quote(p, safe="") for p in parts)
 
 
-def api_call(method: str, path: str, *, data: Any = None, content_type: str | None = None) -> tuple[int, str]:
+def api_call(
+    method: str, path: str, *, data: Any = None, content_type: str | None = None
+) -> tuple[int, str]:
     """Make an HTTP request to the Obsidian Local REST API."""
+    if not API_KEY:
+        raise RuntimeError(
+            "OBSIDIAN_API_KEY is required for Obsidian writes; "
+            "store it in the local environment, never in source control."
+        )
     url = DEFAULT_BASE + path
     headers = {"Authorization": f"Bearer {API_KEY}"}
     body = None
@@ -164,6 +169,7 @@ def api_call(method: str, path: str, *, data: Any = None, content_type: str | No
 
 # ── card builder ───────────────────────────────────────────────────────────
 
+
 def extract_transcript_body(note_path: Path) -> str:
     """Extract the 文字稿 section from an existing Inbox note."""
     try:
@@ -173,7 +179,7 @@ def extract_transcript_body(note_path: Path) -> str:
     idx = text.find("## 文字稿")
     if idx == -1:
         return ""
-    body = text[idx + len("## 文字稿"):].strip()
+    body = text[idx + len("## 文字稿") :].strip()
     return body
 
 
@@ -189,7 +195,7 @@ def build_card(record: dict, transcript_body: str) -> str:
     source_url = record.get("source_url", "")
     source_category = record.get("source_category", "未知")
     douyin_create_time = record.get("source_create_time", "")
-    created_date = datetime.now().strftime("%Y-%m-%d")
+    created_date = datetime.now(UTC).strftime("%Y-%m-%d")
 
     one_liner = f"抖音视频「{title}」的转写内容，来自 {author}，分类建议：{card_type}"
 
@@ -217,12 +223,24 @@ def safe_filename(title: str) -> str:
 
 # ── main ───────────────────────────────────────────────────────────────────
 
+
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--dry-run", action="store_true", help="Preview without writing")
-    parser.add_argument("--limit", type=int, default=0, help="Limit number of candidates (0 = all)")
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Preview without writing"
+    )
+    parser.add_argument(
+        "--limit", type=int, default=0, help="Limit number of candidates (0 = all)"
+    )
     parser.add_argument("--bucket", type=str, help="Filter by specific vault bucket")
-    parser.add_argument("--min-transcript-chars", type=int, default=0, help="Skip candidates with transcript body < N chars")
+    parser.add_argument(
+        "--min-transcript-chars",
+        type=int,
+        default=0,
+        help="Skip candidates with transcript body < N chars",
+    )
     parser.add_argument("--jsonl", type=Path, default=CANDIDATES_PATH)
     return parser.parse_args()
 
@@ -230,17 +248,32 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
 
+    if not args.dry_run and not API_KEY:
+        print(
+            "ERROR: OBSIDIAN_API_KEY is required for Obsidian writes; "
+            "set it in the local environment."
+        )
+        return 2
+
     if not args.jsonl.exists():
         print(f"ERROR: candidates file not found: {args.jsonl}")
         return 1
 
-    records = [json.loads(l) for l in args.jsonl.read_text(encoding="utf-8").splitlines() if l.strip()]
-    knowledge = [r for r in records if r.get("suggested_vault_bucket") != "00_Inbox/抖音链接"]
+    records = [
+        json.loads(l)
+        for l in args.jsonl.read_text(encoding="utf-8").splitlines()
+        if l.strip()
+    ]
+    knowledge = [
+        r for r in records if r.get("suggested_vault_bucket") != "00_Inbox/抖音链接"
+    ]
 
     if args.bucket:
-        knowledge = [r for r in knowledge if r.get("suggested_vault_bucket") == args.bucket]
+        knowledge = [
+            r for r in knowledge if r.get("suggested_vault_bucket") == args.bucket
+        ]
     if args.limit > 0:
-        knowledge = knowledge[:args.limit]
+        knowledge = knowledge[: args.limit]
 
     print(f"Total candidates: {len(records)}")
     print(f"Knowledge-type: {len(knowledge)}")
@@ -266,10 +299,15 @@ def main() -> int:
         if source_path.exists():
             transcript_body = extract_transcript_body(source_path)
 
-        if args.min_transcript_chars > 0 and len(transcript_body) < args.min_transcript_chars:
+        if (
+            args.min_transcript_chars > 0
+            and len(transcript_body) < args.min_transcript_chars
+        ):
             skipped_low_quality += 1
             if args.dry_run or i < 3:
-                print(f"  SKIP [{bucket}] {title[:50]} (transcript={len(transcript_body)} chars, min={args.min_transcript_chars})")
+                print(
+                    f"  SKIP [{bucket}] {title[:50]} (transcript={len(transcript_body)} chars, min={args.min_transcript_chars})"
+                )
             continue
 
         if not transcript_body.strip():
@@ -282,7 +320,7 @@ def main() -> int:
         vault_path = f"00_Inbox/_待审核/{bucket}/{note_filename}"
 
         if args.dry_run:
-            print(f"  DRY-RUN [{i+1}/{len(knowledge)}] -> {vault_path}")
+            print(f"  DRY-RUN [{i + 1}/{len(knowledge)}] -> {vault_path}")
             print(f"    Title: {title[:60]}")
             print(f"    Transcript chars: {len(transcript_body)}")
             print(f"    Card size: {len(card)} bytes")
@@ -298,10 +336,14 @@ def main() -> int:
         if status in (200, 204):
             written += 1
             if i < 3 or written % 20 == 0:
-                print(f"  [{written}/{len(knowledge)}] OK {bucket}/{note_filename[:60]}")
+                print(
+                    f"  [{written}/{len(knowledge)}] OK {bucket}/{note_filename[:60]}"
+                )
         else:
             errors += 1
-            print(f"  ERROR [{i+1}] {bucket}/{note_filename[:60]}: status={status} {body[:200]}")
+            print(
+                f"  ERROR [{i + 1}] {bucket}/{note_filename[:60]}: status={status} {body[:200]}"
+            )
 
     # Summary
     print()

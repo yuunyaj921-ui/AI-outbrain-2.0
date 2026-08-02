@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:09.686873+00:00",
+      "revision": 0
+    },
+    {
+      "type": "draft_ready",
+      "status": "awaiting_approval",
+      "created_at": "2026-08-02T08:21:09.744417+00:00",
+      "suggested_category": "03_AI工具库",
+      "target_path": "03_AI工具库/7666386850314980648 【抖音精选App独家】我做了一个纯本地的 AI 贾维斯！.md",
+      "index_path": "03_AI工具库/_工具库索引.md",
+      "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7666386850314980648 【抖音精选App独家】我做了一个纯本地的 AI 贾维斯！.md",
+      "revision": 1
+    }
+  ],
+  "review_id": "9007c1814383",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\9007c1814383.json",
+  "status": "awaiting_approval",
+  "created_at": "2026-08-02T08:21:09.686873+00:00",
+  "updated_at": "2026-08-02T08:21:09.744417+00:00",
+  "title": "【抖音精选App独家】我做了一个纯本地的 AI 贾维斯！",
+  "author": "林亦LYi",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7666386850314980648 【抖音精选App独家】我做了一个纯本地的 AI 贾维斯！.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7666386850314980648 【抖音精选App独家】我做了一个纯本地的 AI 贾维斯！.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "wait_for_user_review",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "03_AI工具库",
+  "target_path": "03_AI工具库/7666386850314980648 【抖音精选App独家】我做了一个纯本地的 AI 贾维斯！.md",
+  "index_path": "03_AI工具库/_工具库索引.md",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7666386850314980648",
+  "source_url": "https://www.iesdouyin.com/share/video/7666386850314980648/?region=CN&mid=7666386950945114931&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=oJGRWzAGyiz79q.6r6s7exoWCIRmzgaZ9DOZAN3SBV8-&share_version=170400&ts=1785254120&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 52,
+  "migration_source": "legacy-classification-candidate",
+  "quality": {
+    "transcript_chars": 3745,
+    "knowledge_points": 5,
+    "scenarios": 3,
+    "tools": 1,
+    "complete": true,
+    "score": 92
+  }
+}

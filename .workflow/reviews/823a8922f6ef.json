@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:10.921232+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "823a8922f6ef",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\823a8922f6ef.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:10.921232+00:00",
+  "updated_at": "2026-08-02T08:21:10.921232+00:00",
+  "title": "睡觉时，AI替我上班！",
+  "author": "浣熊不加班",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7647924501795097907 睡觉时，AI替我上班！.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\02_模型能力库\\7647924501795097907 睡觉时，AI替我上班！.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "02_模型能力库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7647924501795097907",
+  "source_url": "https://www.iesdouyin.com/share/video/7647924501795097907/?region=CN&mid=7647924549958241087&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=scQnXupxA7X7_pTsTUs.br2p95tkhteOOGp8lu_Ners-&share_version=170400&ts=1785254270&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 37,
+  "migration_source": "legacy-classification-candidate"
+}

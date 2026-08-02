@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:11.973228+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "e966c271f741",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\e966c271f741.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:11.973228+00:00",
+  "updated_at": "2026-08-02T08:21:11.973228+00:00",
+  "title": "拍完毕业照突然好不舍得于是决定多发dy",
+  "author": "少刷抖音加油！",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7652152078429059426 拍完毕业照突然好不舍得于是决定多发dy.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\01_AI术语库\\7652152078429059426 拍完毕业照突然好不舍得于是决定多发dy.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "01_AI术语库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7652152078429059426",
+  "source_url": "https://www.iesdouyin.com/share/slides/7652152078429059426/?region=CN&mid=7393224058558548748&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&schema_type=37&is_slides=1&share_sign=2c2PCxbmCZG5yhMjVFmnSAzDnbQGtYqoVyFW4icMW18-&share_version=170400&ts=1785254236&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 30,
+  "migration_source": "legacy-classification-candidate"
+}

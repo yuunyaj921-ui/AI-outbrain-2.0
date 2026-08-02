@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:09.415503+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "5a429af1677b",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\5a429af1677b.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:09.415503+00:00",
+  "updated_at": "2026-08-02T08:21:09.415503+00:00",
+  "title": "VineCoding大赏。以前做项目又是查这个又是搞那个感觉好麻烦，于是我就写了这个skill，拿到项目后： 上传项目文件→自动市场调研→自动生成产品方→自动生成营销内容→自动生成客户提案→最后输出完整交付文件 整个流程全部由ai自己完成。 目前已经能跑通： 市场验证 → 产品开发 → 营销推广 → 客户提案 完整商业闭环。 在GitHub仓库搜索：super-individual-business-workflow即可下载 有不足的地方可以留言或在评论区交流，如果觉得可以，还请在GitHub仓库点个⭐@抖音科技 #claude #skills #ai工具 #vibecoding大赏 #ai新星计划",
+  "author": "哇靠快跑",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7650551711052464049 VineCoding大赏。以前做项目又是查这个又是搞那个感觉好麻烦，于是我就写了这个skill，拿到项目后： 上传项目文.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\04_工作流库\\7650551711052464049 VineCoding大赏。以前做项目又是查这个又是搞那个感觉好麻烦，于是我就写了这个skill，拿到项目后： 上传项目文件→自动市场调研→自动生成产品方→自动生.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "04_工作流库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7650551711052464049",
+  "source_url": "https://www.iesdouyin.com/share/video/7650551711052464049/?region=CN&mid=7647064656682665999&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&schema_type=37&share_sign=syg7x9J7jXgJdDmJp63Xb.JcsDC0MTyHm_IUCUdwLN0-&share_version=170400&ts=1785254256&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 53,
+  "migration_source": "legacy-classification-candidate"
+}

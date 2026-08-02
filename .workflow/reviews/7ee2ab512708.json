@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:09.430565+00:00",
+      "revision": 0
+    },
+    {
+      "type": "draft_ready",
+      "status": "awaiting_approval",
+      "created_at": "2026-08-02T08:21:09.480978+00:00",
+      "suggested_category": "05_智能体库",
+      "target_path": "05_智能体库/7659048120315088154 盘点一周AI大事(7月5日)｜Fable 5回归.md",
+      "index_path": "05_智能体库/_智能体库索引.md",
+      "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\05_智能体库\\7659048120315088154 盘点一周AI大事(7月5日)｜Fable 5回归.md",
+      "revision": 1
+    }
+  ],
+  "review_id": "7ee2ab512708",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\7ee2ab512708.json",
+  "status": "awaiting_approval",
+  "created_at": "2026-08-02T08:21:09.430565+00:00",
+  "updated_at": "2026-08-02T08:21:09.480978+00:00",
+  "title": "盘点一周AI大事(7月5日)｜Fable 5回归",
+  "author": "产品君",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7659048120315088154 盘点一周AI大事(7月5日)｜Fable 5回归.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\05_智能体库\\7659048120315088154 盘点一周AI大事(7月5日)｜Fable 5回归.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "wait_for_user_review",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "05_智能体库",
+  "target_path": "05_智能体库/7659048120315088154 盘点一周AI大事(7月5日)｜Fable 5回归.md",
+  "index_path": "05_智能体库/_智能体库索引.md",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7659048120315088154",
+  "source_url": "https://www.iesdouyin.com/share/video/7659048120315088154/?region=CN&mid=7659048200432061222&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=0HAxoxt9aQw36Sts5zoDi_qGX6kuDLN9ZLuAVbXhJXY-&share_version=170400&ts=1785254213&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "二次元",
+  "priority_score": 53,
+  "migration_source": "legacy-classification-candidate",
+  "quality": {
+    "transcript_chars": 1187,
+    "knowledge_points": 5,
+    "scenarios": 3,
+    "tools": 2,
+    "complete": true,
+    "score": 94
+  }
+}

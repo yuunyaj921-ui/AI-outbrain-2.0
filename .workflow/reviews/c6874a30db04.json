@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:10.389617+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "c6874a30db04",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\c6874a30db04.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:10.389617+00:00",
+  "updated_at": "2026-08-02T08:21:10.389617+00:00",
+  "title": "VibeCoding大赏｜挂科？不存在！一个帮大学生在考前一两周内快速消化重点、考点并真正会用、避免挂科的期末复习Skill。    考前一周还在女娲补天？Cram Engine直接把重点考点嚼碎了喂你，想挂科都难！🔥  适合什么课？  所有文科！定性知识密集的大学课程最合适。文史哲、法学、教育学、新闻传播、社会学、政治学、经管类的大部分期末考都在这个范围里。考试以理解和论述为主就行。  纯定量课不太适合。高等数学、概率论、计量经济学——这类课靠的是海量手算和题型熟练度，跟引擎的理解再迁移路线不一样。  另外得说实话：引擎效果取决于你给的重点与考点质量。如果你完全不知道老师会考什么，它会退化成普通 AI 问答。期末速成的前提没变——你得先有一个考试范围。 整个过程进度自动保存。关掉终端随时走，下次回来接着来。    如何使用？  图示以管理学原理课程做了个简单小例子。配置好skill后，输入 /cram 你的课程名 start。引擎会依次问你课程名、教材（没有就跳过）、复习资料（没有就跳过）、考试题型、要考的知识点、哪些老师反复强调过、哪些你自己觉得要加强。完全不用你操心，七个问题答完自动生成配置，不需要手写任何文件。然后确认知识树，跟着走就行。随时可以 /cram 课程名 resume 从断点继续。所有进度数据用纯文本存在你自己电脑上。  已开源，欢迎点亮star✨ #skill #github开源 #大学生期末考试 #vibecoding大赏 #ai新星计划 @抖音科技  @抖音小助手",
+  "author": "cheeze.",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7648470898031781331 VibeCoding大赏｜挂科？不存在！一个帮大学生在考前一两周内快速消化重点、考点并真正会用、避免挂科的期末复习Ski.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7648470898031781331 VibeCoding大赏｜挂科？不存在！一个帮大学生在考前一两周内快速消化重点、考点并真正会用、避免挂科的期末复习Skill。    考前一周还在女娲补天？Cr.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "03_AI工具库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7648470898031781331",
+  "source_url": "https://www.iesdouyin.com/share/video/7648470898031781331/?region=CN&mid=7640429484849465371&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&schema_type=37&share_sign=tDQvjSqSYPJ7DwSho1zmqLuU24Y2G6pgHSQv6SmiR7k-&share_version=170400&ts=1785254296&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 44,
+  "migration_source": "legacy-classification-candidate"
+}

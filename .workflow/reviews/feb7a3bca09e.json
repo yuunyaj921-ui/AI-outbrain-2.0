@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:09.207935+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "feb7a3bca09e",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\feb7a3bca09e.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:09.207935+00:00",
+  "updated_at": "2026-08-02T08:21:09.207935+00:00",
+  "title": "刚做了个抖音MCP工具，能让Agent直接获取创作者中心的所有视频数据，方便做分析和复盘。 已经开源啦，有人需要用吗？",
+  "author": "欧拉欧拉的替身AI",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7663095179452672640 刚做了个抖音MCP工具，能让Agent直接获取创作者中心的所有视频数据，方便做分析和复盘。 已经开源啦，有人需要用吗？.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\05_智能体库\\7663095179452672640 刚做了个抖音MCP工具，能让Agent直接获取创作者中心的所有视频数据，方便做分析和复盘。 已经开源啦，有人需要用吗？.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "05_智能体库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7663095179452672640",
+  "source_url": "https://www.iesdouyin.com/share/video/7663095179452672640/?region=CN&mid=7388988519505889281&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&schema_type=37&share_sign=S1W9E80uAyEzlcxGLiu1ZcTxY1W5f797WczeWcTZPqE-&share_version=170400&ts=1785254110&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "游戏",
+  "priority_score": 58,
+  "migration_source": "legacy-classification-candidate"
+}

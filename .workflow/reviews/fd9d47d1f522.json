@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:10.437559+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "fd9d47d1f522",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\fd9d47d1f522.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:10.437559+00:00",
+  "updated_at": "2026-08-02T08:21:10.437559+00:00",
+  "title": "任意网站图片下载提取灵感提示词 色彩构成 #插件 #Ai",
+  "author": "凡人审美实验室",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7657604992552376271 任意网站图片下载提取灵感提示词 色彩构成 #插件 #Ai.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7657604992552376271 任意网站图片下载提取灵感提示词 色彩构成 #插件 #Ai.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "03_AI工具库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7657604992552376271",
+  "source_url": "https://www.iesdouyin.com/share/video/7657604992552376271/?region=CN&mid=7657604921772100379&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=9_dF1vp3ypeohqx.JEvb7Yc.On982aaTW.yi8umZrkY-&share_version=170400&ts=1785254220&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "生活",
+  "priority_score": 44,
+  "migration_source": "legacy-classification-candidate"
+}

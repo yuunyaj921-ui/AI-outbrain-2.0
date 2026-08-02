@@ -11,6 +11,7 @@ from pathlib import Path
 BOOTSTRAP_ENV = "AI_OUTBRAIN_VENV_BOOTSTRAPPED"
 DISABLE_ENV = "AI_OUTBRAIN_DISABLE_VENV_BOOTSTRAP"
 VENV_DIRNAME = ".venv"
+_PYTHON_ENV_KEYS = {"PYTHONHOME", "PYTHONPATH"}
 
 
 def project_root() -> Path:
@@ -37,6 +38,15 @@ def bootstrap_disabled() -> bool:
     return value in {"1", "true", "yes", "on"}
 
 
+def subprocess_environment() -> dict[str, str]:
+    """Return an environment that cannot redirect a child Python runtime."""
+    return {
+        key: value
+        for key, value in os.environ.items()
+        if key.upper() not in _PYTHON_ENV_KEYS
+    }
+
+
 def ensure_project_venv(argv: list[str] | None = None) -> None:
     """Create the project venv, install core dependencies, and re-exec once."""
     if getattr(sys, "frozen", False) or bootstrap_disabled() or is_running_in_project_venv():
@@ -54,6 +64,8 @@ def ensure_project_venv(argv: list[str] | None = None) -> None:
         result = subprocess.run(
             [sys.executable, "-m", "venv", "--clear", str(root / VENV_DIRNAME)],
             cwd=root,
+            env=subprocess_environment(),
+            check=False,
             text=True,
             capture_output=True,
             encoding="utf-8",
@@ -75,6 +87,8 @@ def ensure_project_venv(argv: list[str] | None = None) -> None:
                 str(requirements),
             ],
             cwd=root,
+            env=subprocess_environment(),
+            check=False,
             text=True,
             capture_output=True,
             encoding="utf-8",
@@ -84,10 +98,10 @@ def ensure_project_venv(argv: list[str] | None = None) -> None:
             detail = (result.stderr or result.stdout or "").strip()
             raise RuntimeError(f"Failed to install core dependencies into .venv: {detail}")
 
-    env = os.environ.copy()
+    env = subprocess_environment()
     env[BOOTSTRAP_ENV] = "1"
     command = [str(python_path), *(argv if argv is not None else sys.argv)]
-    completed = subprocess.run(command, cwd=root, env=env)
+    completed = subprocess.run(command, cwd=root, env=env, check=False)
     raise SystemExit(completed.returncode)
 
 
@@ -111,6 +125,8 @@ def _core_dependencies_ready(python_path: Path) -> bool:
     try:
         result = subprocess.run(
             [str(python_path), "-c", "import requests"],
+            env=subprocess_environment(),
+            check=False,
             text=True,
             capture_output=True,
             encoding="utf-8",
@@ -127,6 +143,8 @@ def _python_executable_ready(python_path: Path) -> bool:
     try:
         result = subprocess.run(
             [str(python_path), "-c", "import sys; print(sys.executable)"],
+            env=subprocess_environment(),
+            check=False,
             text=True,
             capture_output=True,
             encoding="utf-8",

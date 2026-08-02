@@ -93,6 +93,18 @@ Web Console 默认只监听本机地址：
 
 ## 常用命令
 
+运行工程回归测试：
+
+```powershell
+python -X utf8 -m unittest discover -s tests -v
+```
+
+检查受维护文本的 UTF-8 健康状态：
+
+```powershell
+python -X utf8 tools/check_text_encoding.py
+```
+
 启动 Web Console：
 
 ```powershell

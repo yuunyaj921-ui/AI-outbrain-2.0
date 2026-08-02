@@ -2,52 +2,52 @@
 tags:
   - 工具
   - 待审核
-created: 2026-07-30
-source: https://www.iesdouyin.com/share/video/7662007205058942291/?region=CN&mid=7662007205085399846&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=ixhKqxRQcGuY7LBjv3ycK7em0pEzYFiBlKcPXWiiXK0-&share_version=170400&ts=1785254128&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D
-douyin_author: 橘斯斯 sisi
-douyin_aweme_id: 7662007205058942291
-douyin_create_time: 2026-07-13 21:41
-source_category: 知识
+created: 2026-08-02
+source: "https://www.iesdouyin.com/share/video/7662007205058942291/?region=CN&mid=7662007205085399846&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&share_sign=ixhKqxRQcGuY7LBjv3ycK7em0pEzYFiBlKcPXWiiXK0-&share_version=170400&ts=1785254128&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D"
+douyin_author: "橘斯斯 sisi"
+douyin_aweme_id: "7662007205058942291"
+douyin_create_time: "2026-07-13 21:41"
+source_category: "知识"
+review_id: "8e662e246f6d"
 review_status: pending
+curation_method: deterministic-extractive-v1
+quality_status: needs_human_review
 ---
 
 # 我的自媒体内容输出突然变顺了。#自媒体 #表达 #ai #ai工具 #vibecoding #vibecoding大赏
 
 ## 📌 一句话总结
-抖音视频「我的自媒体内容输出突然变顺了。#自媒体 #表达 #ai #ai工具 #vibecoding #vibecoding大赏」的转写内容，来自 橘斯斯 sisi，分类建议：工具
+围绕“我的自媒体内容输出突然变顺了。#自媒体 #表达 #ai #ai工具 #vibecoding #vibecoding大赏”梳理可复用方法，核心信息包括：这也是我在做自媒体书出内容之后的一个塌点所以我做了一个可以实施反馈的表达训练系统。
 
 ## 🏷️ 类型
 工具
 
 ## 🔑 关键知识点
-1. 
-2. 
-3. 
-4. 
-5. 
+1. 这也是我在做自媒体书出内容之后的一个塌点所以我做了一个可以实施反馈的表达训练系统
+2. 比如说你的我的口头产它都会帮你标红如果你说了很多次然后你就会意识到这件事情
+3. 想可以换成渴望期待向往很多也可以替换成大量海量充裕我在整个系统里内置了一个
+4. 就是选择结束的时候可以去生成报告这个分析报告内置的prompet
+5. itop上大家可以自行下载我内置了一个与与转文字的工具已经两万七千多字的
 
 ## 🎯 适用场景
-- 
-- 
-- 
+- 工具选型与替代方案比较
+- 快速原型和日常提效
+- 评估集成成本与使用风险
 
 ## 🛠️ 可用工具 / 模型
-- 
-- 
-- 
+- 原视频未明确提及具体工具或模型
 
 ## 🔗 可迁移到我的项目
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] AI 外脑：沉淀为可搜索、可复用的知识卡片
+- [ ] 当前开发项目：作为工具选型或实现方案的参考
 
 ## 💬 我的理解
-> 待审核后补充
+> 这是基于原始转写自动抽取的审核草稿；批准前应核对事实、术语和 ASR 误差。
 
 ## 📤 可输出内容
-- 选题方向：
-- 讨论话题：
-- 商业切入点：
+- 选题方向：我的自媒体内容输出突然变顺了。#自媒体 #表达 #ai #ai工具 #vibecoding #vibecoding大赏
+- 讨论话题：原视频方法是否可复用、适用边界是什么
+- 商业切入点：仅在人工确认真实需求和可交付价值后评估
 
 ## ➡️ 后续行动
 - [ ] 值得深入研究
@@ -57,11 +57,7 @@ review_status: pending
 - [ ] 暂时收藏观察
 
 ## 🏗️ 关联知识
-- [[相关术语]]
-- [[相关模型]]
-- [[相关工具]]
-- [[相关工作流]]
-- [[相关案例]]
+- [[待审核后补充相关术语或工具]]
 
 ---
 

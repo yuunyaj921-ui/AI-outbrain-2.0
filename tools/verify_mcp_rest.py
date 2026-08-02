@@ -9,18 +9,15 @@ Fixed: URL-safe percent-encoding for non-ASCII path segments (e.g. _待审核).
 Also probes the /mcp endpoint with proper Accept headers to detect native MCP support.
 """
 
-import urllib.request
-import urllib.parse
-import urllib.error
-import ssl
 import json
-import sys
 import os
+import ssl
+import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 
-API_KEY = os.environ.get(
-    "OBSIDIAN_API_KEY",
-    "7d5fae81891539d8d79eaf97d3891fc42bb5389204af980447eb49564ccb8e4b",
-)
+API_KEY = os.environ.get("OBSIDIAN_API_KEY", "").strip()
 BASE = os.environ.get("OBSIDIAN_API_URL", "https://127.0.0.1:27124")
 
 ctx = ssl.create_default_context()
@@ -60,15 +57,20 @@ def api_call(method, path, data=None, content_type=None, accept=None):
             raw = resp.read().decode("utf-8", errors="replace")
             return resp.status, raw
     except urllib.error.HTTPError as e:
-        raw = (
-            e.read().decode("utf-8", errors="replace") if e.fp else str(e)
-        )
+        raw = e.read().decode("utf-8", errors="replace") if e.fp else str(e)
         return e.code, raw
-    except Exception as e:
+    except (OSError, ValueError) as e:
         return -1, f"{type(e).__name__}: {e}"
 
 
 def main():
+    if not API_KEY:
+        print(
+            "ERROR: OBSIDIAN_API_KEY is required for verification; "
+            "set it in the local environment."
+        )
+        return 2
+
     results = {}
 
     # --- Step 1: List vault root ---
@@ -146,7 +148,7 @@ def main():
         )
         print(f"  Alt create status: {status_alt}")
         if status_alt in (200, 201, 204):
-            status_rb2, body_rb2 = api_call("GET", encoded_test)
+            status_rb2, _body_rb2 = api_call("GET", encoded_test)
             print(f"  Alt read-back status: {status_rb2}")
             results["created_test_note"] = status_rb2 == 200
         else:
@@ -179,7 +181,9 @@ def main():
             status, body = api_call("GET", ep, accept=accept)
             found = status not in (-1, 404, 405)
             if found:
-                print(f"  {ep:20s} Accept={accept:30s} -> status={status} {'*** FOUND ***' if found else ''}")
+                print(
+                    f"  {ep:20s} Accept={accept:30s} -> status={status} {'*** FOUND ***' if found else ''}"
+                )
                 if status == 200 and len(body) < 500:
                     print(f"    Body: {body}")
                 mcp_found = mcp_found or (status == 200)
@@ -196,9 +200,7 @@ def main():
     print("=" * 60)
     for k, v in results.items():
         status_str = (
-            "✓ PASS"
-            if v is True
-            else ("~ PARTIAL" if v == "non_json" else "✗ FAIL")
+            "✓ PASS" if v is True else ("~ PARTIAL" if v == "non_json" else "✗ FAIL")
         )
         print(f"  {k:25s} {status_str}")
 

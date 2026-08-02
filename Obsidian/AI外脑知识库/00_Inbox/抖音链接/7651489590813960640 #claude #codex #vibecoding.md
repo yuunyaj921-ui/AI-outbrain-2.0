@@ -1,0 +1,25 @@
+# 7651489590813960640 #claude #codex #vibecoding
+
+## 基本信息
+- 作者：6得飞起
+- 原始链接：https://www.iesdouyin.com/share/video/7651489590813960640/?region=CN&mid=7649325006433930024&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&schema_type=37&share_sign=lfX1l8wgpiI_YZciaXThsEtDg_DVGHS4Sb_wkWgEn60-&share_version=170400&ts=1785254284&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D
+- 视频时长：N/A
+- 封面：N/A
+- ASR 引擎：faster_whisper
+- 创建时间：2026-07-30 02:08:22
+
+## 文字稿
+
+这是一个很重要的东西
+是我最喜欢的东西
+其实我喜欢的东西
+就是我喜欢的东西
+所以我是喜欢的
+但是我喜欢的东西
+我喜欢的东西
+所以我喜欢的东西
+而且我喜欢的东西
+但是我喜欢的东西
+因为我喜欢的东西
+所以我喜欢的东西
+另外一个东西

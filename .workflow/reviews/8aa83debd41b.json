@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "events": [
+    {
+      "type": "created",
+      "status": "pending_draft",
+      "created_at": "2026-08-02T08:21:10.177014+00:00",
+      "revision": 0
+    }
+  ],
+  "review_id": "8aa83debd41b",
+  "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\8aa83debd41b.json",
+  "status": "pending_draft",
+  "created_at": "2026-08-02T08:21:10.177014+00:00",
+  "updated_at": "2026-08-02T08:21:10.177014+00:00",
+  "title": "我开发的让Claude Code 用DeepSeek和网页版Gemini交互 轻量级Skill上线GitHub了👏 可能会被Google给ban掉😂 不定时更新新功能 这个Skill后续会变得非常炸裂🚀 #vibecoding",
+  "author": "CarryU王同学",
+  "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7655394904994407908 我开发的让Claude Code 用DeepSeek和网页版Gemini交互 轻量级Skill上线GitHub了👏 可能.md",
+  "source_retention": "keep",
+  "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7655394904994407908 我开发的让Claude Code 用DeepSeek和网页版Gemini交互 轻量级Skill上线GitHub了👏 可能会被Google给ban掉😂 不定时更新.md",
+  "content_mode": "card",
+  "interaction_channel": "terminal",
+  "next_skill": "douyin-curate-via-obsidian-mcp",
+  "next_action": "complete_review_draft",
+  "revision_instructions": [],
+  "finalization_authorized": false,
+  "suggested_category": "03_AI工具库",
+  "target_path": "",
+  "index_path": "",
+  "final_card_path": "",
+  "final_index_path": "",
+  "source_id": "7655394904994407908",
+  "source_url": "https://www.iesdouyin.com/share/video/7655394904994407908/?region=CN&mid=7646436288627657491&u_code=4cc4ad85ba28&did=MS4wLjABAAAAT1D1gmOljWorxdE4yMu-dIfWFc_PuFHiuNmSr-byCBnldjRAudFIqwRkPfj3MmtG&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&video_share_track_ver=&titleType=title&schema_type=37&share_sign=lpHYPrdpAMhEOE6l6lgJrMoYMpo.nYi3yODZqt5NT9I-&share_version=170400&ts=1785254208&from_aid=6383&from_ssr=1&share_track_info=%7B%22link_description_type%22%3A%22%22%7D",
+  "source_category": "知识",
+  "priority_score": 46,
+  "migration_source": "legacy-classification-candidate"
+}
