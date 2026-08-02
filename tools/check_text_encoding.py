@@ -34,6 +34,7 @@ EXCLUDED_PARTS = {
 EXCLUDED_DIR_PREFIXES = (
     ".release_check",
     ".release_runtime_dev_check",
+    ".venv.",
 )
 EXCLUDED_NAMES = {"config.ini", ".env"}
 VAULT_ROOT = Path("Obsidian") / "AI外脑知识库"
