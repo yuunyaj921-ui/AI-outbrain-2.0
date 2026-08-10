@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 3,
+  "revision": 4,
   "events": [
     {
       "type": "created",
@@ -34,13 +34,19 @@
       "index_path": "03_AI工具库/_工具库索引.md",
       "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
       "revision": 3
+    },
+    {
+      "type": "approved",
+      "status": "approved",
+      "created_at": "2026-08-10T15:38:15.550818+00:00",
+      "revision": 4
     }
   ],
   "review_id": "080207d3dfba",
   "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\080207d3dfba.json",
-  "status": "awaiting_approval",
+  "status": "approved",
   "created_at": "2026-08-02T08:21:09.585684+00:00",
-  "updated_at": "2026-08-10T13:39:02.081242+00:00",
+  "updated_at": "2026-08-10T15:38:15.550808+00:00",
   "title": "codex绝对实操！！小白制作网页最有效的方法√",
   "author": "大白AI",
   "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
@@ -49,7 +55,7 @@
   "content_mode": "card",
   "interaction_channel": "terminal",
   "next_skill": "douyin-curate-via-obsidian-mcp",
-  "next_action": "wait_for_user_review",
+  "next_action": "finalize_via_obsidian_mcp",
   "revision_instructions": [
     {
       "instruction": "抽取式草稿存在明显 ASR 错词和语义不连贯；需校正原始转写、事实和术语后再提交审批。",
@@ -57,7 +63,7 @@
       "revision": 2
     }
   ],
-  "finalization_authorized": false,
+  "finalization_authorized": true,
   "suggested_category": "03_AI工具库",
   "target_path": "03_AI工具库/7660844602957532450 codex绝对实操！！小白制作网页最有效的方法√.md",
   "index_path": "03_AI工具库/_工具库索引.md",
@@ -75,5 +81,6 @@
     "tools": 1,
     "complete": true,
     "score": 92
-  }
+  },
+  "approved_at": "2026-08-10T15:38:15.550789+00:00"
 }
