@@ -259,9 +259,17 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         if len(transcripts[str(item.get("aweme_id") or "")])
         >= args.min_transcript_chars
     ]
+    existing = _existing_reviews()
+    eligible_for_enrichment = []
+    for item in eligible:
+        source_id = str(item.get("aweme_id") or "")
+        draft_path = _draft_path(item)
+        review = existing.get(f"id:{source_id}") or existing.get(f"path:{draft_path}")
+        if not review or review.get("status") == "pending_draft":
+            eligible_for_enrichment.append(item)
     enrich_ids = {
         str(item.get("aweme_id") or "")
-        for item in eligible[: max(0, args.enrich_limit)]
+        for item in eligible_for_enrichment[: max(0, args.enrich_limit)]
     }
     summary: dict[str, Any] = {
         "success": True,
@@ -276,8 +284,6 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         "errors": [],
         "selected": [],
     }
-    existing = _existing_reviews()
-
     for candidate in candidates:
         source_id = str(candidate.get("aweme_id") or "")
         draft_path = _draft_path(candidate)
@@ -319,7 +325,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             )
             _atomic_write(draft_path, content)
             summary["enriched"] += 1
-            if not quality.complete:
+            if not quality.approval_ready:
                 summary["kept_pending"] += 1
                 continue
 

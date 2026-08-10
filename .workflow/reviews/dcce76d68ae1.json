@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "events": [
     {
       "type": "created",
@@ -17,13 +17,20 @@
       "index_path": "03_AI工具库/_工具库索引.md",
       "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\03_AI工具库\\7644260710385569067 Github 5万颗星！还有多少人不知道这款AI设计工具！！.md",
       "revision": 1
+    },
+    {
+      "type": "revision_requested",
+      "status": "revision_requested",
+      "created_at": "2026-08-10T13:32:17.828108+00:00",
+      "instruction": "抽取式草稿存在明显 ASR 错词和语义不连贯；需校正原始转写、事实和术语后再提交审批。",
+      "revision": 2
     }
   ],
   "review_id": "dcce76d68ae1",
   "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\dcce76d68ae1.json",
-  "status": "awaiting_approval",
+  "status": "revision_requested",
   "created_at": "2026-08-02T08:21:09.115687+00:00",
-  "updated_at": "2026-08-02T08:21:09.168799+00:00",
+  "updated_at": "2026-08-10T13:32:17.828099+00:00",
   "title": "Github 5万颗星！还有多少人不知道这款AI设计工具！！",
   "author": "Gilbert🍃",
   "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7644260710385569067 Github 5万颗星！还有多少人不知道这款AI设计工具！！.md",
@@ -32,8 +39,14 @@
   "content_mode": "card",
   "interaction_channel": "terminal",
   "next_skill": "douyin-curate-via-obsidian-mcp",
-  "next_action": "wait_for_user_review",
-  "revision_instructions": [],
+  "next_action": "revise_review_draft_via_obsidian_mcp",
+  "revision_instructions": [
+    {
+      "instruction": "抽取式草稿存在明显 ASR 错词和语义不连贯；需校正原始转写、事实和术语后再提交审批。",
+      "created_at": "2026-08-10T13:32:17.828082+00:00",
+      "revision": 2
+    }
+  ],
   "finalization_authorized": false,
   "suggested_category": "03_AI工具库",
   "target_path": "03_AI工具库/7644260710385569067 Github 5万颗星！还有多少人不知道这款AI设计工具！！.md",

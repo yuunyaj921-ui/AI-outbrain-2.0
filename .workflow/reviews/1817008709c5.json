@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 3,
   "events": [
     {
       "type": "created",
@@ -17,13 +17,30 @@
       "index_path": "05_智能体库/_智能体库索引.md",
       "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\05_智能体库\\7650776381453765903 Prompt 已死，Loop已来！.md",
       "revision": 1
+    },
+    {
+      "type": "revision_requested",
+      "status": "revision_requested",
+      "created_at": "2026-08-10T13:32:10.202717+00:00",
+      "instruction": "抽取式草稿存在明显 ASR 错词和语义不连贯；需校正原始转写、事实和术语后再提交审批。",
+      "revision": 2
+    },
+    {
+      "type": "draft_ready",
+      "status": "awaiting_approval",
+      "created_at": "2026-08-10T13:39:02.551857+00:00",
+      "suggested_category": "05_智能体库",
+      "target_path": "05_智能体库/7650776381453765903 Prompt 已死，Loop已来！.md",
+      "index_path": "05_智能体库/_智能体库索引.md",
+      "draft_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\_待审核\\05_智能体库\\7650776381453765903 Prompt 已死，Loop已来！.md",
+      "revision": 3
     }
   ],
   "review_id": "1817008709c5",
   "review_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\.workflow\\reviews\\1817008709c5.json",
   "status": "awaiting_approval",
   "created_at": "2026-08-02T08:21:09.535260+00:00",
-  "updated_at": "2026-08-02T08:21:09.582677+00:00",
+  "updated_at": "2026-08-10T13:39:02.551843+00:00",
   "title": "Prompt 已死，Loop已来！",
   "author": "老李AI实战",
   "source_path": "C:\\Users\\xtanx\\AppData\\Roaming\\@opensquilla\\desktop-electron\\opensquilla\\workspace\\ai-outbrain\\Obsidian\\AI外脑知识库\\00_Inbox\\抖音链接\\7650776381453765903 Prompt 已死，Loop已来！.md",
@@ -33,7 +50,13 @@
   "interaction_channel": "terminal",
   "next_skill": "douyin-curate-via-obsidian-mcp",
   "next_action": "wait_for_user_review",
-  "revision_instructions": [],
+  "revision_instructions": [
+    {
+      "instruction": "抽取式草稿存在明显 ASR 错词和语义不连贯；需校正原始转写、事实和术语后再提交审批。",
+      "created_at": "2026-08-10T13:32:10.202689+00:00",
+      "revision": 2
+    }
+  ],
   "finalization_authorized": false,
   "suggested_category": "05_智能体库",
   "target_path": "05_智能体库/7650776381453765903 Prompt 已死，Loop已来！.md",

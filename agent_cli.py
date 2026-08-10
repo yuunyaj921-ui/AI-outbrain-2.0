@@ -511,7 +511,7 @@ def handle_console(args: argparse.Namespace) -> int:
     payload["update"] = check_and_update(PROJECT_ROOT)
     if args.no_browser:
         return emit_json(payload, getattr(args, "pretty", False))
-    print(json.dumps(payload, ensure_ascii=False, indent=2 if getattr(args, "pretty", False) else None))
+    print(encode_json_for_stdout(payload, getattr(args, "pretty", False)))
     run_console(args.host, args.port, open_browser=True)
     return 0
 
@@ -2013,8 +2013,19 @@ def check_writable_dir(path: Path) -> bool:
         return False
 
 
+def encode_json_for_stdout(payload: dict[str, Any], pretty: bool) -> str:
+    indent = 2 if pretty else None
+    rendered = json.dumps(payload, ensure_ascii=False, indent=indent)
+    encoding = getattr(sys.stdout, "encoding", None) or "utf-8"
+    try:
+        rendered.encode(encoding)
+    except (LookupError, UnicodeEncodeError):
+        rendered = json.dumps(payload, ensure_ascii=True, indent=indent)
+    return rendered
+
+
 def emit_json(payload: dict[str, Any], pretty: bool) -> int:
-    print(json.dumps(payload, ensure_ascii=False, indent=2 if pretty else None))
+    print(encode_json_for_stdout(payload, pretty))
     return 0 if payload.get("success") else 1
 
 

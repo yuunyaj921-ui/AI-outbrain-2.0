@@ -113,6 +113,7 @@ class DraftQuality:
     scenarios: int
     tools: int
     complete: bool
+    approval_ready: bool
     score: int
 
     def as_dict(self) -> dict[str, Any]:
@@ -122,6 +123,8 @@ class DraftQuality:
             "scenarios": self.scenarios,
             "tools": self.tools,
             "complete": self.complete,
+            "approval_ready": self.approval_ready,
+            "review_note": "抽取式草稿仅供校对，不能自动批准。",
             "score": self.score,
         }
 
@@ -363,5 +366,6 @@ def assess_card(card_text: str) -> DraftQuality:
         scenarios=len(meaningful_scenarios),
         tools=len(tools),
         complete=complete,
+        approval_ready=False,
         score=min(100, score),
     )
